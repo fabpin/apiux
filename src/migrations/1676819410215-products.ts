@@ -16,7 +16,8 @@ export class products1676819410215 implements MigrationInterface {
                     {
                         name: "product_id",
                         type: "bigint",
-                        isNullable: true
+                        isNullable: true,
+                        isUnique:true
                     },
                     {
                         name: "parent_id",

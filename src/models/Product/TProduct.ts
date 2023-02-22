@@ -1,4 +1,5 @@
 export const TProductFields:string[] = [
+    'product_id',
     'parent_id',
     'init',
     'external_id',

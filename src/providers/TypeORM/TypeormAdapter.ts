@@ -35,6 +35,8 @@ class TypeormAdapter implements ITypeORMAdapter{
                 .insert()
                 .into(this.model)
                 .values(bulkInsert)
+                .orUpdate(fieldToUpdateForConflict)
+                .orIgnore()
                 .execute();
         }).catch((error) => {
             console.error(error);
