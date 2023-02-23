@@ -16,3 +16,6 @@ Steps to run this project:
       PGSQL_PORT
 3. Correr las migraciones `yarn migration:ts`
 4. Correr el ambiente de pruebas `yarn nodemon`
+
+**Nota** Para usar el enpoint search/{prefijo} se debe usar el nombre exacto en nuestro caso el que funciona es Shopify ejemplo http://localhost:3000/search/Shopify
+
